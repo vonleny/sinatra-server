@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-	"Hello World!"
+	"Hello World! I am here"
 end
 get '/sinatra' do
 	"Hello Sinatra!"
