@@ -1,16 +1,21 @@
 require 'sinatra'
 
 get '/' do
-	
-	"Hello World! I am here"
-	 File.read(File.join('public', 'hello.txt'))
+	#redirect 'https://miami.craigslist.org/'
+	#{}"Hello World! I am here"
+	#  File.read(File.join('public', 'hello.txt'))
+	#job = params[:jobs] 
+ redirect 'https://miami.craigslist.org/'
 end
 post '/'do
- "Misael"
+ job = params[:jobs]
+
+ redirect 'https://miami.craigslist.org/'
 end
-get '/sinatra' do
+get '/sinatraa' do
 	"Hello Sinatra!"
 end
-get '/bunsenator' do
-	"Bunsen Rocks!"
+get '/sinatra' do
+	redirect 'https://miami.craigslist.org/'
+	
 end
