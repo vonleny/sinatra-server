@@ -9,10 +9,11 @@ get '/' do
 end
 post '/'do
  job = params[:jobs]
+ "glk d "
 
- redirect 'https://miami.craigslist.org/'
+ # redirect 'https://miami.craigslist.org/'
 end
-get '/sinatraa' do
+get '/sinatra' do
 	"Hello Sinatra!"
 end
 get '/sinatra' do
